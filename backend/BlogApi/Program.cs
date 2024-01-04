@@ -1,3 +1,5 @@
+using BlogApi;
+
 var builder = WebApplication.CreateBuilder(args);
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 

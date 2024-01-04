@@ -11,9 +11,14 @@ namespace BlogApi.DataModel
         public string DisplayName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Image { get; set; }
+        public byte[]? Image { get; set; }
 
         // Navigation property
         public List<BlogPost> BlogPosts { get; set; }
+
+        public void SetImage(byte[] imageBytes)
+        {
+            Image = imageBytes;
         }
+    }
 }
