@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BlogApi.DataModel;
 using BlogApi.DataModel.Interfaces;
+using BlogApi.Services;
 
 namespace BlogApi.Controllers
 {

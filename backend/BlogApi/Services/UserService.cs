@@ -27,7 +27,7 @@ namespace BlogApi.Services
         {
             Email = user.Email,
             DisplayName = user.DisplayName,
-            Image = user.Image
+            Image = user.Image,
         };
 
         var result = await _userManager.CreateAsync(newUser, password);
